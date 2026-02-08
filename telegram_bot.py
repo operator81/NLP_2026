@@ -501,13 +501,13 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Основная функция запуска бота"""
     # Токен бота 
-    BOT_TOKEN = "7834928701:AAHTF7nnbQG54jA3SheQxaHIP8BsyCFkhlY"  # ЗАМЕНИТЬ НА СВОЙ ТОКЕН!
+    BOT_TOKEN = "ТУТ_ДОЛЖЕН_БЫТЬ_ТОКЕН"  # ЗАМЕНИТЬ НА СВОЙ ТОКЕН!
     
-    if BOT_TOKEN == "ВАШ_ТОКЕН_БОТА":
+    if BOT_TOKEN == "ТУТ_ДОЛЖЕН_БЫТЬ_ТОКЕН":
         print("❌ ОШИБКА: Замените BOT_TOKEN на свой токен!")
         print("1. Создайте бота через @BotFather")
         print("2. Получите токен")
-        print("3. Вставьте его в код вместо 'ВАШ_ТОКЕН_БОТА'")
+        print("3. Вставьте его в код вместо 'ТУТ_ДОЛЖЕН_БЫТЬ_ТОКЕН'")
         return
     
     # Создаем приложение
@@ -544,4 +544,5 @@ if __name__ == "__main__":
         exit(1)
     
     
+
     main()
